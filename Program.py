@@ -80,11 +80,11 @@ def item3b(divider):
 def item3c():
     divisors2024 = [1, 2, 4, 8, 11, 22, 23, 44, 46, 88, 92, 184, 253, 506, 1012, 2024]
     n = 16
-    if item3a(divisors2024[2024]) == False:
+    if item3a(divisors2024[16]) == False:
         while item3a(divisors2024[n]) == False:
             n += -1
         print("Ответ: ", divisors2024[n])
-    if item3b(divisors2024[2024]) == False:
+    if item3b(divisors2024[16]) == False:
         while item3b(divisors2024[n]) == False:
             n += -1
         print("Ответ: ", divisors2024[n])
